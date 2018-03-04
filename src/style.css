@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .app {
+    margin-top: 10px;
+    font-family: monospace;  
+  }
+
+  .wrapper {
+    border: 1px dashed #880;
+    width: 75%;
+    max-width: 700px;
+    min-width: 500px;
+    margin: 0 auto 5px;
+    padding: 10px;
+  }
+  
+  .control {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .control label {
+    display: block;
+    text-transform: lowercase;
+  }
+  .control input[type='text'],
+  .control input[type='date'] {
+    width: 100%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+  }
+  
+  .btn {
+    border: 1px solid #999;
+    padding: 5px 50px;
+    background: #fff;
+  }
+  .btn:hover {
+    background: #eee;
+    border-color: orangered;
+  }
+  
+  .todoitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #999;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .complete {
+    color: #ccc;
+    text-decoration:line-through;
+  }
+
+  .todofilter a {
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid rgba(55,55,55,0);
+    margin: 0 10px;
+  }
+  .todofilter a:hover {
+    border-bottom: 1px solid rgba(55,55,55,1);
+  }
+
+  a.filter-active {
+    color: red;
+    font-weight: bold;
+
+  }
